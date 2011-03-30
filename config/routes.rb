@@ -1,4 +1,9 @@
 BoxScoreBuzz::Application.routes.draw do
+  
+  resources :posts
 
-    get "box_scores/archive"
-  end
+  root :to => "posts#index"
+  
+  get "box_scores/archive"
+  get "pages/home"
+end
