@@ -1,4 +1,7 @@
 BoxScoreBuzz::Application.configure do
+  
+  Paperclip.options[:command_path]= "/opt/local/bin"
+  
   # Settings specified here will take precedence over those in config/application.rb
 
   # The production environment is meant for finished, "live" apps.

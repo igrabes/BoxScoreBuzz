@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+gem "paperclip", "~> 2.3"
+
 gem 'rails', '3.0.3'
 
 # Bundle edge Rails instead:
